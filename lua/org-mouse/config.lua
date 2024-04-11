@@ -34,7 +34,7 @@ local config = setmetatable({
 
     ---Pattern of filetypes to support for mouse operations.
     ---@type string[]
-    filetypes = { "org", "org-roam-*" },
+    filetypes = { "org", "org-*" },
 
     ---If true, highlights links when mousing over them.
     ---This will enable `vim.opt.mouseoverevent` if disabled!
