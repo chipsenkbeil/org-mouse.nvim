@@ -116,14 +116,14 @@ This is leveraged during setup to configure a `FileType` autocmd to attach
 keybindings for `<MouseMove>` and `<LeftRelease>` to support mouse
 interactions.
 
-Takes a list of strings. Defaults to `{"org", "org-roam-*"}`.
+Takes a list of strings. Defaults to `{"org", "org-*"}`.
 
 Notice that the strings are in pattern format, meaning you can use wildcards to
 support multiple filetypes.
 
 >lua
     require("org-mouse"):setup({
-      filetypes = { "org", "org-roam-*", "org-custom-*" },
+      filetypes = { "org", "org-*", "org-custom-*" },
     })
 <
 
