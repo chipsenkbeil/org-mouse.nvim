@@ -44,11 +44,11 @@ Requires *neovim 0.9.2+*.
 
 ** Link Highlighting by Hover
 
-   TODO
+   #+HTML: <img src="https://github.com/chipsenkbeil/org-mouse.nvim/assets/2481802/f0e475e8-ba8c-44dc-a81e-e44321415cc6" />
 
 ** Navigating Links by Click
 
-   TODO
+   #+HTML: <img src="https://github.com/chipsenkbeil/org-mouse.nvim/assets/2481802/0644fd1b-437a-418a-937e-caf20eac945e" />
 
 * Configuration
 
